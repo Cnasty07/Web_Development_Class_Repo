@@ -16,12 +16,38 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="Styles.css" />
     </head>
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-             <h1>Project Page Header</h1>
+    <body class="bg-dark text-white">
+        <header class="sticky-top bg-dark">
+            <!-- navbar container -->
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" id="homeLogo">CN</a>
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"  href="AboutPage.html" id="about-tab">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ProjectsPage.html" id="projects-tab">Projects</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#contact" id="contact-tab">Contact</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="ContactPage.html" role="button" aria-expanded="false">Contact</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="mailto:chris.nastasi@yahoo.com">Email Me</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <main>
             <span>main area</span>

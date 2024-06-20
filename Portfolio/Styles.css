@@ -1,31 +1,29 @@
 
 
-#custom-colors {
-    color: #14080E; 
-    color: #49475B; 
-    color: #799496; 
-    color: #ACC196; 
-    color: #e9eb9e; 
+:root {
+    
+    --themeDarkest: #14080E; 
+    --themeDark: #49475B; 
+    --themeNeutral: #799496; 
+    --themeLight: #ACC196; 
+    --themeLightest: #e9eb9e; 
 }
 #about-tab {
-    color: #ACC196;
+    color: var(--themeLight);
 }
 #projects-tab {
-    color: #ACC196;
+    color: var(--themeLight);
 }
 #contact-tab {
-    color: #ACC196;
-}
-
-#projects {
-    background-color: green;
-    min-height: 40vw;
-}
-
-#contact {
-    min-height: 20vh;
+    color: var(--themeLight);
 }
 
 #homeLogo {
-    color: #ACC196;
+    color: var(--themeLight);
 }
+header nav ul li a {
+    color: var(--themeLight);
+ }
+/* #headerExp {
+    background-image: url("https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=2089&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+} */
