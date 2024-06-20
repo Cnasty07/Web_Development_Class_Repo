@@ -10,6 +10,12 @@
 #about-tab {
     color: #ACC196;
 }
+#projects-tab {
+    color: #ACC196;
+}
+#contact-tab {
+    color: #ACC196;
+}
 
 #projects {
     background-color: green;
@@ -18,4 +24,8 @@
 
 #contact {
     min-height: 20vh;
+}
+
+#homeLogo {
+    color: #ACC196;
 }

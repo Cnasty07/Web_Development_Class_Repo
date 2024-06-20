@@ -5,24 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Chris Nastasi | Software Engineer</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link href="./indexStyles.css" rel="stylesheet"/>
+        <link href="./Styles.css" rel="stylesheet"/>
     </head>
     <body class=" bg-dark">
         <!-- wrapper for website -->
         <div class="container-fluid bg-dark text-white m-0">
             <!-- navbar container -->
-            <div class="d-flex justify-content-end">
-                
+            <div class="d-flex justify-content-between">
+                <h1 id="homeLogo">CN</h1>
                 <ul class="nav nav-underline justify-content-end m-1">
                     <li class="nav-item">
-                        <a class="nav-link active" data-bs-toggle="tab" href="#about" id="about-tab">About</a>
+                        <a class="nav-link active" aria-current="page" data-bs-toggle="tab" href="AboutPage.html" id="about-tab">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#projects" id="projects-tab">Projects</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="ProjectsPage.html" id="projects-tab">Projects</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="tab" href="#contact" id="contact-tab">Contact</a>
-                    </li>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="ContactPage.html" role="button" aria-expanded="false">Contact</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="mailto:chris.nastasi@yahoo.com">Email Me</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                      </li>
                 </ul>
             </div>
             <!-- <div class="tab-content border">
@@ -53,17 +63,17 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="d-flex bg-dark-subtle" id="projects">
+            <!-- <div class="d-flex bg-dark-subtle" id="projects">
                 <h2>Projects</h2>
-            </div>
-            <div class="d-flex flex-column" id="contact" >
+            </div> -->
+            <!-- <div class="d-flex flex-column" id="contact" >
                 <h2>Contact</h2>
                     <ul class="list-group align-items-center p-5" style="background-color: red;">
                         <li class="list-group-item"><a href="" type="Email">Email Me!</a></li>
                         <li class="list-group-item"><a href="" type="Phone">Call Me!</a></li>
                         <li class="list-group-item"><a href="">Leave your Info!</a></li>
                     </ul>
-                </div>
+                </div> -->
         </div>
 
         <!-- Script for JS bootstrap  -->
