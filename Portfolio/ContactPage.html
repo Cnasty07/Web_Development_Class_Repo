@@ -27,9 +27,6 @@
                         <a class="navbar-brand" href="#" id="homeLogo">CN</a>
                         <ul class="nav nav-underline">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"  href="AboutPage.html" id="about-tab">About</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="ProjectsPage.html" id="projects-tab">Projects</a>
                             </li>
                             <li class="nav-item">
@@ -42,12 +39,13 @@
                                 <a class="nav-link" data-bs-toggle="tab" href="#contact" id="contact-tab">Contact</a>
                             </li> -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="ContactPage.html" role="button" aria-expanded="false">Contact</a>
+                                <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="ContactPage.html" role="button" aria-expanded="false">Contact</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="mailto:chris.nastasi@yahoo.com">Email Me</a></li>
                                     <li><a class="dropdown-item" href="phone:210-445-7617">Call Me</a></li>
                                     <li><a class="dropdown-item" href="https://www.linkedin.com/in/chris-nastasi-987680152">LinkedIn</a></li>
                                     <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="ContactPage.html">Leave Your Info</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -59,18 +57,23 @@
             <br>
         </header>
         <main>
-            <div class="container w-50 text-start">
+            <div class="container w-50 text-start" id="contactForm">
 
-                <div class="input-group">
-                    <span class="input-group-text">First | Last name</span>
-                    <input type="text" aria-label="First name" aria-placeholder="first" class="form-control">
-                    <input type="text" aria-label="Last name" class="form-control">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">First & Last name</span>
+                    <input type="text" aria-label="First name" placeholder="First" class="form-control">
+                    <input type="text" aria-label="Last name" placeholder="Last" class="form-control">
+                </div>
+                <br>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Phone:</span>
+                    <input type="text" aria-label="phone number" placeholder="XXX-XXX-XXXX" class="form-control">
                 </div>
                 <br>
                 <!-- Email  -->
                 <div class="input-group mb-3">
                     <span class="input-group-text">Email</span>
-                    <input type="text" class="form-control" placeholder="chrisnastasi@gmail.com" aria-label="Username">
+                    <input type="email" class="form-control" placeholder="youremail@gmail.com" aria-label="Username">
                 </div>
                 
                 <div class="mb-3">

@@ -8,6 +8,7 @@
     --themeLight: #ACC196; 
     --themeLightest: #e9eb9e; 
 }
+
 #about-tab {
     color: var(--themeLight);
 }
@@ -17,13 +18,29 @@
 #contact-tab {
     color: var(--themeLight);
 }
-
+#experience-tab {
+    color: var(--themeLight);
+}
+#education-tab {
+    color: var(--themeLight);
+}
+#contacts-tab {
+    color: var(--themeLight);
+}
 #homeLogo {
     color: var(--themeLight);
 }
-header nav ul li a {
+#EducationMain {
     color: var(--themeLight);
- }
+    border-color: var(--themeLight);
+}
+#bodyStyles {
+    color: var(--themeLight);
+}
+
+.contactForm {
+    border: #ACC196;
+}
 /* #headerExp {
     background-image: url("https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=2089&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 } */
