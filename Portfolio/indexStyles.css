@@ -1,0 +1,21 @@
+
+
+#custom-colors {
+    color: #14080E; 
+    color: #49475B; 
+    color: #799496; 
+    color: #ACC196; 
+    color: #e9eb9e; 
+}
+#about-tab {
+    color: #ACC196;
+}
+
+#projects {
+    background-color: green;
+    min-height: 40vw;
+}
+
+#contact {
+    min-height: 20vh;
+}
