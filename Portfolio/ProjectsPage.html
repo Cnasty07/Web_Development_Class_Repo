@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="Styles.css" />
     </head>
 
-    <body class="container w-75 bg-dark text-white">
+    <body class="container-fluid bg-dark themeColorText my-auto">
         <header class="sticky-top bg-dark">
             <!-- navbar container -->
             <nav class="navbar">
@@ -27,7 +27,9 @@
                     <a class="navbar-brand" href="#" id="homeLogo">CN</a>
                     <ul class="nav nav-underline">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page"  href="index.html" id="about-tab">Home</a>
+                            <a class="nav-link" aria-current="page"  href="index.html" id="about-tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                              </svg></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="ProjectsPage.html" id="projects-tab">Projects</a>
@@ -39,8 +41,11 @@
                             <a class="nav-link" href="education.html" id="education-tab">Education</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="ContactPage.html" role="button" aria-expanded="false">Contact</a>
-                            <ul class="dropdown-menu">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="ContactPage.html" role="button" aria-expanded="false">Contact <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                              </svg></a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
                                 <li><a class="dropdown-item" href="mailto:chris.nastasi@yahoo.com">Email Me</a></li>
                                 <li><a class="dropdown-item" href="phone:210-445-7617">Call Me</a></li>
                                 <li><a class="dropdown-item" href="https://www.linkedin.com/in/chris-nastasi-987680152">LinkedIn</a></li>
@@ -51,10 +56,41 @@
                     </ul>
                 </div>
             </nav>
+            <h2 class="container-fluid  w-100 text-center text-decoration-underline">Projects</h2>
         </header>
+        <br>
         <main>
-            <span>main area</span>
-            <a href="index.html">back home</a>
+            <div class="container">
+                <div class="row">
+                <div class="col-3">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="https://aristotle.com/emailimages/PI_Predictable-Insights_Header_banner_600x150_2021.png" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title">PredictIT</h4>
+                            <p class="card-text">Discord bot that uses predictIt api to retrieve new data on politics betting</p>
+                            <a href="#github"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                              </svg></a>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-3">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="https://images.discordapp.net/avatars/533355994168688649/82116f0f34f66003725cbce571fb0672.png?size=512" alt="Alpaca Bot" />
+                        <div class="card-body">
+                            <h4 class="card-title">Alpaca Bot</h4>
+                            <p class="card-text">A bot that retrieves information from Alpaca Market API</p>
+                            <a href="#github"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
         </main>
         <footer>
             <!-- place footer here -->
