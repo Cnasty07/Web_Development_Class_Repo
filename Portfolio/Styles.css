@@ -1,14 +1,25 @@
 
-
+/* colors for theme */
 :root {
-    
     --themeDarkest: #14080E; 
     --themeDark: #49475B; 
     --themeNeutral: #799496; 
     --themeLight: #ACC196; 
     --themeLightest: #e9eb9e; 
 }
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400 */
 
+.playwrite-es-fonter {
+  font-family: "Playwrite ES", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+    color:var(--themeLight);
+}
 #about-tab {
     color: var(--themeLight);
 }
@@ -30,20 +41,25 @@
 #homeLogo {
     color: var(--themeLight);
 }
-#EducationMain {
-    color: var(--themeLight);
-    border-color: var(--themeLight);
-}
+
 #bodyStyles {
     color: var(--themeLight);
 }
 
 .contactForm {
-    border: #ACC196;
+    border: var(--themeLight);
 }
 .themeColorText {
-    color: #ACC196;
+    color: var(--themeLight);
 }
+
+nav {
+    padding-bottom: 1px;
+    border-bottom: 1px ridge #ACC196;
+    
+}
+
+
 /* #headerExp {
     background-image: url("https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=2089&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 } */

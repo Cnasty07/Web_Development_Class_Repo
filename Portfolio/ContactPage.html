@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="Styles.css">
     </head>
 
-    <body class="container bg-dark text-white">
+    <body class="container bg-dark themeColorText">
         <header>
               <!-- navbar container -->
                 <nav class="navbar">
@@ -53,14 +53,16 @@
                 </nav>
                 <br>
             <!-- Page Name -->
-            <h2 class="text-center">Contact Me!</h2>
+            <h2 class="text-center text-decoration-underline">Contact Me!</h2>
             <br>
         </header>
         <main>
-            <div class="container w-50 text-start" id="contactForm">
+            <div class="row my-auto justify-content-evenly">
 
-                <div class="input-group mb-3">
-                    <span class="input-group-text">First & Last name</span>
+                <div class="col-4 text-start border border-light-subtle p-1" id="contactForm">
+                    
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">First & Last name</span>
                     <input type="text" aria-label="First name" placeholder="First" class="form-control">
                     <input type="text" aria-label="Last name" placeholder="Last" class="form-control">
                 </div>
@@ -80,14 +82,23 @@
                     <label for="basic-url" class="form-label">Add More Details?</label>
                     <textarea class="form-control" aria-label="With textarea" placeholder="Explain here..."></textarea>
                 </div>
-            </div>
-            <div class="container w-50 text-center">
+                    <div class="container text-center">
+                        <button type="button" class="btn btn-primary" >Submit</button>
+                    </div>
+                </div>
 
-                <button type="button" class="btn btn-primary" >Submit</button>
+                <div class="col-4">
+                    <div class="container h-100 ">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444671.31151535554!2d-98.84403616878349!3d29.458167395958224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58af04d00eaf%3A0x856e13b10a016bc!2sSan%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1718921394357!5m2!1sen!2sus" style="width:100%; height:100%" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
             </div>
         </main>
             <footer>
                 <!-- place footer here -->
+                <div class="container text-center">
+                    <h5>Socials</h5>
+                </div>
             </footer>
             <!-- Bootstrap JavaScript Libraries -->
             <script
