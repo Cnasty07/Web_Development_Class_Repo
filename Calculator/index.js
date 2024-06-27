@@ -1,10 +1,23 @@
-
-function add(params) {
-    
+const numberInput = (newNumber) => {
+    if (document.querySelector('#display').value == " ")
+        {
+            document.querySelector('#display').value == `${newNumber}`
+        }
+    else {
+        document.querySelector('#display').value = `${document.querySelector('#display').value + newNumber}`
+    }
 }
-
+function add() {
+    let number = document.querySelector('#display')
+    console.log(number.split("+"))
+}
+const calculate = () => {
+    let formula  = document.querySelector('#display').value
+    
+    console.log(formula.split("+"))
+}
 function subtract(number) {
-    let newNum = 
+    
 }
 
 function divide(number) {
