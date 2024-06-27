@@ -7,29 +7,18 @@ const numberInput = (newNumber) => {
         document.querySelector('#display').value = `${document.querySelector('#display').value + newNumber}`
     }
 }
+
 function add() {
     let number = document.querySelector('#display')
     console.log(number.split("+"))
 }
 const calculate = () => {
     let formula  = document.querySelector('#display').value
-    
-    console.log(formula.split("+"))
+    console.log(eval(formula))
+    document.querySelector('#display').value = `${eval(formula)}`
 }
-function subtract(number) {
-    
-}
-
-function divide(number) {
-
-}
-
-function power(number) {
-    
-}
-
 document.querySelector("#clear").addEventListener("click",() => {
-    document.querySelector("#display").value = " ";
+    document.querySelector("#display").value = "";
 }) // clear
 
 // backspace function
