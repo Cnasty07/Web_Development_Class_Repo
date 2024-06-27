@@ -1,7 +1,13 @@
-* {
 
+
+.btn {
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
 }
 
-html {
-    
+input[type="text"]  {
+    width: 400px;
+    height: 100px;
+    font-size: xx-large;
 }

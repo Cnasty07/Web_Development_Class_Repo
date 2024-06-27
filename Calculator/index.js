@@ -8,10 +8,6 @@ const numberInput = (newNumber) => {
     }
 }
 
-function add() {
-    let number = document.querySelector('#display')
-    console.log(number.split("+"))
-}
 const calculate = () => {
     let formula  = document.querySelector('#display').value
     console.log(eval(formula))
